@@ -260,6 +260,22 @@ word-wrap: break-word
     margin: auto;
     display: flex;
 }
+    
+element.style {
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.bd-left {
+    border-radius: unset !important;
 .banner-text pre{
     font-size: 17px;
 }
@@ -296,6 +312,8 @@ word-wrap: break-word
 .footer-text-1 p {
     padding: 0 16px;
 }
+    .bd-right{
+    border-radius: unset !important;
 .log-image img {
     height: 57px;
     position: absolute;
