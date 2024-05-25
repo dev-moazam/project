@@ -1,9 +1,31 @@
 
 
 <style>
+
+@media(min-width:577px){
+  .bg-header-main{
+   background-image: url(images/eleufondoindex.png);
+   background-size: cover;
+   background-position: center;
+   height: 650px;
+    position: relative;
+  }
+
+
+
+}
   @media(max-width:576px){
+   .mobile-view{
+   background-image: url(images/mobile.png);
+   background-size: cover;
+   background-position: center;
+   height: 560px;
+    position: relative;
+  }
     .bg-logo img{
       max-width: 155px !important;
+      
+      
 
 }
 .bg-center{
@@ -12,13 +34,8 @@
 .contact-btn {
     padding-top: 2rem !important;
 }
-.bg-header-main {
-        height: 690px !important;
-    }
 
   }
-  
-</style>
 <!doctype html>
 <html lang="en">
 
@@ -39,8 +56,7 @@
 <body class="font-family:Archivo Black sans-serif">
 
 
-  <div class="bg-header-main" style="background-image: url(img/images/eleufondoindex.png);background-size: cover;background-position: center;height: 650px;
-    position: relative;">
+  <div class="bg-header-main mobile-view">
     <div class="bg-center" style="position: absolute;top: 40%;left: 10%;">
       <div class="bg-logo">
         <img src="img/images/Eleu.png" alt="" class="img-fluid min-vw-40 w-100">
